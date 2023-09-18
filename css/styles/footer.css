@@ -1,0 +1,46 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 3rem;
+    gap: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    font-family: Verdana;
+}
+
+.links ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.copy {
+    font-family: Impact;
+    font-weight: bold;
+}
+
+.logo-footer {
+    width: 150px;
+}
+
+.copy p {
+    padding: 0.25rem 0;
+}
+
+.footer-circle {
+    width: 120%;
+    height: 120%;
+    position: absolute;
+    bottom: -100;
+    z-index: -1;
+    background-color: var(--primary-color);
+    border-radius: 50% 50% 0 0;
+}

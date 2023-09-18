@@ -1,0 +1,16 @@
+:root {
+    --primary-color: #ebe7e7;
+    --black-color: #170102;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.text-serif{
+    font-family: Helvetica;
+}
+
+main {
+    overflow: hidden;
+}
